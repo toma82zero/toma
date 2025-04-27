@@ -52,3 +52,50 @@ img {
 section {
     padding: 25px;
 }
+
+.m8 {
+    width: 380px;
+    padding: 15px;
+    border-radius: 40px;
+
+}
+
+mark {
+    background-color: yellow!important;
+}
+
+.m1 {
+    width: 700px;
+    padding: 50px;
+    border: 200px;
+    border-radius: 500px;
+}
+
+.m {
+    width: px;
+    padding: 15px;
+    border-radius: 35px;
+}
+
+.m2 {
+    width: 350px;
+    padding: 15px;
+    border-radius: 35px;
+}
+
+.m3 {
+    width: 400px;
+    padding: 0%;
+}
+
+.m4 {
+    width: 400px;
+    padding: 20px;
+    border-radius: 36px;
+}
+
+.m7 {
+    width: 400px;
+    padding: 26px;
+    border-radius: 40px;
+}
