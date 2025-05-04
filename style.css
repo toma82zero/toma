@@ -3,9 +3,45 @@
     padding: 0;
 }
 
-.black {
-    background: black;
+.logo {
+    font-size: 200px;
+    text-align: center;
+}
+
+.text {
+    font-size: 26px;
+}
+
+.section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.s1 {
+    /* background: black; */
     color: white;
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url('./images/13df90595a0f15ef61193d9e7c4f2c8a.jpg');
+}
+
+.s2 {
+    color: white;
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url('./110b7dcf-ee5c-4762-9a8b-44db802d7635.jpg');
+}
+
+.s3 {
+    color: white;
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url('./images/OIP.jpg');
+}
+
+.s4 {
+    color: white;
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url('./04ef0cd4-ab20-42a1-ad18-45dd0692028f.jpg');
 }
 
 .white {
@@ -20,6 +56,7 @@ img {
 .content {
     position: relative;
 }
+
 
 .content::before {
     content: "";
@@ -39,11 +76,6 @@ img {
     position: relative;
 }
 
-
-.container {
-    display: flex;
-    align-items: flex-start;
-}
 
 .left-image {
     margin-right: 20 px;
@@ -71,31 +103,46 @@ mark {
     border-radius: 500px;
 }
 
-.m {
-    width: px;
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel_image {
+    width: 100%;
     padding: 15px;
-    border-radius: 35px;
+    border-radius: 8px;
 }
 
-.m2 {
-    width: 350px;
-    padding: 15px;
-    border-radius: 35px;
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.m3 {
-    width: 400px;
-    padding: 0%;
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-duration: 200ms;
 }
 
-.m4 {
-    width: 400px;
-    padding: 20px;
-    border-radius: 36px;
+.action:hover {
+    color: rgb(12, 255, 12);
+    cursor: pointer;
 }
 
-.m7 {
-    width: 400px;
-    padding: 26px;
-    border-radius: 40px;
+td, th {
+    padding: 5px;
 }
