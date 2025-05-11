@@ -26,7 +26,7 @@
 .s1 {
     /* background: black; */
     color: white;
-    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url('./images/13df90595a0f15ef61193d9e7c4f2c8a.jpg');
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url('./13df90595a0f15ef61193d9e7c4f2c8a.jpg');
 }
 
 .s2 {
@@ -36,7 +36,7 @@
 
 .s3 {
     color: white;
-    background-image: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url('./images/OIP.jpg');
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url('./OIP.jpg');
 }
 
 .s4 {
@@ -145,4 +145,50 @@ mark {
 
 td, th {
     padding: 5px;
+}
+
+.btn-action {
+    font-size: 26px;
+    background-color: #587ccb;
+    border-radius: 5px;
+}
+
+.action-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.btn-action:active {
+    background-color: #ffffff;
+}
+
+
+@media screen and (max-width: 425px) {
+    .logo {
+        display: block;
+        width: 81.5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: block;
+        width: 81.5px;
+    }
+}
+
+@media screen and (max-width: 1224px) {
+    .logo {
+        display: block;
+        width: 81.5px;
+    }
+}
+
+@media screen and (max-width: 1824px) {
+    .logo {
+        display: block;
+        width: 81.5px;
+    }
 }
