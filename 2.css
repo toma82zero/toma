@@ -149,8 +149,11 @@ td, th {
 
 .btn-action {
     font-size: 26px;
-    background-color: #809ede;
+    background-color: #587ccb;
     border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
 }
 
 .action-btns {
@@ -164,6 +167,17 @@ td, th {
     background-color: #ffffff;
 }
 
+nav {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.go-to-main-page {
+    
+    background-color: #ffffff;
+    color: #000000;
+}
 
 @media screen and (max-width: 425px) {
     .logo {
@@ -192,7 +206,6 @@ td, th {
         width: 81.5px;
     }
 }
-
 .btn-actioni {
    background-color: #352323;
    color: #fff;
